@@ -8,8 +8,8 @@ gem 'rails', '4.0.9'
 gem 'mysql2'
 
 group :test do
-gem 'rspec-rails', '3.1.0'
-gem 'webrat', '0.7.1'
+gem 'rspec-rails', '2.9.0'
+gem 'capybara'
 gem 'spork'
 end
 
