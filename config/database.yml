@@ -54,7 +54,7 @@ test:
   # timeout: 5000
   adapter: mysql2
   encoding: utf8
-  database: freshapps_test
+  database: sample1_test
   username: root
   password:
 

@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe PagesController do
+describe PagesController, :type => :controller do
 
   describe "GET 'home'" do
     it "should be successful" do
@@ -16,4 +16,10 @@ describe PagesController do
     end
   end
 
+  describe "Get 'about'" do
+    it "should be successful" do
+      get 'about'
+        response.should be_success
+    end
+  end
 end
